@@ -1,0 +1,9 @@
+<h1>Dinos!!!</h1>
+
+<% @dinosaurs.each do |dinosaur| %>
+    <p class="<%= dinosaur.is_baby? ? "pink" : "blue" %>">
+        <%= link_to dinosaur.name, dinosaur_path(dinosaur.id) %> <%= dinosaur.age %>
+    </p>
+<% end %>
+
+<%= link_to "[New Dino]", new_dinosaur_path %>

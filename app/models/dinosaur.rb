@@ -6,4 +6,12 @@ class Dinosaur < ApplicationRecord
   def is_baby?
     age < 3
   end
+
+  def color(bool)
+    if bool
+      "pink"
+    else
+      "blue"
+    end
+  end
 end

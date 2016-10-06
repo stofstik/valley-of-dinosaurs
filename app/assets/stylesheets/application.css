@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+* {
+    // border: solid 1px red;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+    width: 96px;
+}
+
+.button {
+
+}
+.blue {
+    color: blue;
+}
+.pink {
+    color: pink;
+}
