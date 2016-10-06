@@ -13,7 +13,7 @@ module ValleyOfDinosaurs
     # -- all .rb files in that directory are automatically loaded.
 
     console do
-      AvtiveRecord::Base.connection
+      ActiveRecord::Base.connection
     end
   end
 end

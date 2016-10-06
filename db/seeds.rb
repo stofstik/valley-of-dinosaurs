@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+dino1 = Dinosaur.create ( { name: "Yoloswag", age: rand(0..100), image_url:  "http://images.dinosaurpictures.org.rsz.io/iguanodon_b35b.jpg"} )
+dino2 = Dinosaur.create ( { name: "Master", age: rand(0..100), image_url:  "http://images.dinosaurpictures.org.rsz.io/mosasaurus_hoffmani_by_olorotitan-d4esmfm_5c48.jpg"} )
+dino3 = Dinosaur.create ( { name: "X-Inator", age: rand(0..100), image_url:  "http://images.dinosaurpictures.org.rsz.io/nyito_4f23.jpg"} )
